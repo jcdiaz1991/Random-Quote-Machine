@@ -1,0 +1,69 @@
+body {
+  background-image:no-repeat center center fixed;
+   no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+
+body, html {
+  width: 100%;
+  height: 100%;
+  background-color:black;
+  color:white;
+}
+
+h1{
+  width : 100%;
+  margin:auto 0 ;
+  font-family: 'Nixie One', cursive;
+
+}
+.container{
+  height:100%;
+  padding-top: 2%;
+}
+
+.outside{
+  margin-top:10%;
+  height:100px;
+  color:white;
+  border-radius: 2px;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 200%;
+}
+
+.quote{
+  height:100%;
+}
+
+.getMessage {
+    background-color: white; /* Green */
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  outline:0;
+}
+
+.getMessage:hover {
+    background-color: #C3C3C3;
+    color: black;
+  outline:0;
+}
+
+.coded{
+  font-size: 10px;
+  font-family: 'Nixie One', cursive;
+  margin-top:5%;
+}
